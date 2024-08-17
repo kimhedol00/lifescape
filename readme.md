@@ -82,7 +82,7 @@
 
 ## 2. 인테리어 컷 생성 Flow
 
-![image_process](https://github.com/user-attachments/assets/e4ab4d2e-f477-4328-be79-a363860f26e9)
+![image_process](https://github.com/user-attachments/assets/df56a16a-0866-4456-9214-90570ebc9fc9)
 
 + python에서 Comfy UI GUI 를 이용해서 이미지를 생성합니다.
 + 가구 사진, 가구 누끼, prompt를 이용해서 가구와 어울리는 인테리어 컷을 생성합니다.
@@ -111,8 +111,7 @@
 + ControlNet, Fooocus Inpaint, prompt, 학습된 Model을 이용해서 인테리어 컷을 생성합니다.
 + 생성된 인테리어 컷을 Stable Diffusion XL refiner 1.0 모델을 이용해서, 질감을 더욱 강조합니다.
 
-![image](https://github.com/user-attachments/assets/1254a584-38e6-4767-893b-de26221d1918)
-
+![img2img](https://github.com/user-attachments/assets/505486d1-8f5c-4e5f-9a8f-24895ecab739)
 
 ## 3. 남은 과제
 + 전처리단계에서 누끼를 딴 이미지를 수정하는 기능
