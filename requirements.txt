@@ -1,0 +1,4 @@
+gradio
+opencv_python
+transparent_background
+websocket-client
