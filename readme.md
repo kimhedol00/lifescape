@@ -41,9 +41,11 @@
 	cd ../models
 	mkdir inpaint
 	cd inpaint
-	<fooocus_inpaint_head.pth, inpaint_v25.fooocus.patch, inpaint_v26.fooocus.path 다운로드>
-
-	# 실행
+	https://huggingface.co/lllyasviel/fooocus_inpaint/tree/main
+	여기서 fooocus_inpaint_head.pth, inpaint_v25.fooocus.patch, inpaint_v26.fooocus.patch
+	다운로드 후 ./ComfyUI/models/inpaint에 저장 
+	
+ 	# 실행
 	cd ../..
 	python main.py --listen [--novram / --lowvram / --normalvram / --highvram]
 
